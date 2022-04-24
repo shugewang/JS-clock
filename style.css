@@ -1,0 +1,51 @@
+/*body * {
+    border: 2px solid red;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    background: #0075A2 url(https://pixabay.com/get/g24372eea950214558a005bf55e3499d926e8d53c6b9586f361f3e2c6373af1048e37ae413e728b4e4f7308f97a323f76a771e1ab1857f9c25b4576d9ca8dce8869857a9083b487114fd371a09cd36dbc_1920.jpg) no-repeat fixed center;
+    background-size:cover;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    min-height: 100vh;
+    align-items:center;
+}
+
+#clock {
+    position: relative;
+    width:50vh;
+    height:50vh;
+    border: 15px solid white;
+    border-radius: 50%;
+    padding: 2rem;
+    background-color:rgba(0,0,0,0.5);
+}
+
+#clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.hand {
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    top: 50%;
+    background: white;
+    border-radius:1rem;
+    transform:rotate(90deg);
+    transform-origin: 100%;
+    transition: all 0.05s linear;
+  }
