@@ -20,6 +20,7 @@ function updateClock() {
     let minDegrees = getDegrees(time.getMinutes(), 60);
     let secDegrees = getDegrees(time.getSeconds(), 60);
     
+    console.log(time.getSeconds(), secDegrees);
     hourHand.style.transform = `rotate(${hourDegrees}deg)`;
     minHand.style.transform = `rotate(${minDegrees}deg)`;
     secHand.style.transform = `rotate(${secDegrees}deg)`;

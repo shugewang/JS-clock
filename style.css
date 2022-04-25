@@ -43,6 +43,10 @@ button {
     margin: 1rem;
 }
 
+button:hover {
+    transform: scale(1.1);
+}
+
 #analogue-clock {
     position: relative;
     width: 50vw;
@@ -71,6 +75,11 @@ button {
     transform: rotate(90deg);
     transform-origin: 100%;
     transition: all 0.05s linear;
+}
+
+#hour-hand {
+    width: 40%;
+    transform-origin: 110% 5%;
 }
 
 #digital-clock {
