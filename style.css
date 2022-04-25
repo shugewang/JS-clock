@@ -45,8 +45,10 @@ button {
 
 #analogue-clock {
     position: relative;
-    width:50vh;
-    height:50vh;
+    width: 50vw;
+    height: 50vw;
+    max-width: 50vh;
+    max-height: 50vh;
     border: 15px solid white;
     border-radius: 50%;
     padding: 2rem;
