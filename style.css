@@ -79,7 +79,7 @@ button:hover {
 
 #hour-hand {
     width: 40%;
-    transform-origin: 110% 5%;
+    left: 10%;
 }
 
 #digital-clock {
