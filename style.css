@@ -11,10 +11,12 @@ body * {
     padding: 0;
 }
 
+/*
 html {
-    background: #0075A2 url(background-pixabay.jpg) no-repeat fixed center;
+    background: #0075A2 url(images/background00.jpg) no-repeat fixed center;
     background-size:cover;
 }
+*/
 
 body {
     display:flex;

@@ -5,7 +5,27 @@ const secHand = document.getElementById("sec-hand");
 const hourDigits = document.getElementById("digital-hour");
 const minDigits = document.getElementById("digital-min");
 const secDigits = document.getElementById("digital-sec");
+const backgrounds = ["images/background00.jpg",
+"images/background01.jpg", 
+"images/background02.jpg", 
+"images/background03.jpg", 
+"images/background04.jpg", 
+"images/background05.jpg", 
+"images/background06.jpg", 
+"images/background07.jpg"]
 
+// get random background
+function getBackground() {
+    randomBackground = Math.floor(Math.random() * backgrounds.length);
+    console.log(randomBackground);
+    return `url(${backgrounds[randomBackground]}) #0075A2 no-repeat fixed center`;
+}
+
+window.addEventListener("load", function () {
+    console.log(getBackground());
+    document.body.style.background = getBackground();
+    document.body.style.backgroundSize = "cover";
+});
 
 // calculate degrees to rotate
 function getDegrees(currentVal, maxVal){
