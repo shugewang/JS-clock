@@ -8,13 +8,31 @@
     </head>
 
     <body>
-        <div id="clock">
-            <div id="clock-face">
+        <header>
+            <button id="toggle" type="button">DIGITAL</button>
+        </header>
+
+        <section id="analogue-clock">
+            <div id="analogue-clock-face">
                 <div class="hand" id="hour-hand"></div>
                 <div class="hand" id="min-hand"></div>
                 <div class="hand" id="sec-hand"></div>
             </div>
-        </div>
+        </section>
+
+        <section id="digital-clock">
+            <div id="digital-clock-face">
+                <div class="digital" id="digital-hour">
+                    <p></p>
+                </div>
+                <div class="digital" id="digital-min">
+                    <p></p>
+                </div>
+                <div class="digital" id="digital-sec">
+                    <p></p>
+                </div>
+            </div>
+        </section>
         <script src="myScript.js"></script>
     </body>
 </html>
