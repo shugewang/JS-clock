@@ -12,7 +12,7 @@ body * {
 }
 
 html {
-    background: #0075A2 url(https://pixabay.com/get/g24372eea950214558a005bf55e3499d926e8d53c6b9586f361f3e2c6373af1048e37ae413e728b4e4f7308f97a323f76a771e1ab1857f9c25b4576d9ca8dce8869857a9083b487114fd371a09cd36dbc_1920.jpg) no-repeat fixed center;
+    background: #0075A2 url(background-pixabay.jpg) no-repeat fixed center;
     background-size:cover;
 }
 
